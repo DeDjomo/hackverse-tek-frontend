@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #114bc0;
 }
 
 .App-logo {
@@ -34,5 +35,52 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Navigation buttons */
+.dashboard-link {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.seller-button, .home-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+.seller-button:hover, .home-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.dashboard-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* index.css */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin-top: 80px; /* Hauteur du menu */
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-top: 60px;
+    padding: 0 10px;
   }
 }
