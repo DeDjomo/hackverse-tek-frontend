@@ -163,7 +163,7 @@ return (
         items={menuItems} 
         logo={logo} 
         logoSize="128px"
-        companyName="TechShop CFA" 
+        companyName="TEKShop" 
         theme={theme} 
       />
 
