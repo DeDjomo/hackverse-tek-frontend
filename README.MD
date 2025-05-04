@@ -30,3 +30,6 @@ CSS: le langage de style pour définir l'apparence de l'application
 ![dashboard_Vendeur2](screenshots/image5.png)
 ![dashboard_Vendeur3](screenshots/image6.png)
 ![dashboard_Vendeur4](screenshots/image7.png)
+
+# SIMULATION
+Videos dans le dossier screnshots.
